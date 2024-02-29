@@ -1,7 +1,6 @@
 <?php 
 session_start();
 setcookie("test","aymen", time() + 3600);
-// Fama compteur fel hkaya 
 
 if (isset($_SESSION['nbVisite'])) {
     $nbVisite = $_SESSION['nbVisite'] + 1;
